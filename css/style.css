@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira sans", sans-serif;
+}
+
+.all-sections {
+  background-color: #799351;
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  padding-top: 160px;
+}
+
+input {
+  width: 151px;
+  height: 30px;
+  border-radius: 8px;
+  background-color: #e8f1f2;
+  color: black;
+  border: navajowhite;
+}
+
+button.main {
+  height: 33px;
+  width: 80px;
+  border-radius: 8px;
+  color: black;
+  font-weight: bolder;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #ffc96f;
+}
+
+input:focus {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+
+  font-weight: bold;
+}
+
+label {
+  font-size: larger;
+  color: black;
+  font-weight: bold;
+}
+
+img {
+  transition: transform 0.2s;
+  width: 18px;
+  margin: 17px;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 55px;
+  text-align: center;
+}
+
+th {
+  width: 175px;
+  text-align: center;
+}
+
+td {
+  width: 126px;
+  text-align: center;
+  /* border-radius: 5px; */
+}
+
+tr {
+  background-color: #a1dd70;
+  border: none;
+  border-radius: 5px !important;
+  border-bottom: 27px solid #799351;
+}
+
+.delete:hover {
+  transform: scale(1.5);
+  border-bottom: solid 2px red;
+  color: red;
+}
+
+.update:hover {
+  transform: scale(1.2);
+}
+
+div#deleteall {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+input#deadline {
+  width: 100px;
+  color: black;
+  font-size: 10px;
+}
+
+.input_field {
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button.delalll {
+  height: 40px;
+  width: 200px;
+  border-radius: 17px;
+  background-color: #ff0000a3;
+  color: white;
+  border: none;
+  font-weight: 700;
+  font-size: 22px;
+  cursor: pointer;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.out-list {
+  margin-bottom: 23px;
+  text-align: center;
+  padding: 0 49px;
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  margin-top: -61px;
+}
+
+.main {
+  color: black;
+}
+
+.msg {
+  margin-left: 123px;
+  font-size: small;
+}
+
+div#msg {
+  font-size: small;
+  color: red;
+  /* font-size: medium; */
+  margin-left: 126px;
+  display: block;
+}
+
+div#msg2 {
+  font-size: small;
+  color: red;
+  /* font-size: medium; */
+  margin-left: 84px;
+}
+
+@media only screen and (max-width: 763px) {
+  button.main {
+    height: 33px;
+    width: 75px;
+  }
+  label {
+    font-size: 19px;
+  }
+  input {
+    width: 145px;
+  }
+}
+
+@media only screen and (max-width: 524px) {
+  input {
+    width: 70px;
+  }
+  .input_field {
+    height: 110px !important;
+    display: flex !important;
+    justify-content: center !important;
+    padding: 30px !important;
+  }
+  .one {
+    width: 230px;
+  }
+  .two {
+    width: 230px;
+  }
+  button.main {
+    height: 30px;
+    width: 60px;
+  }
+  input#deadline {
+    width: 70px;
+  }
+}
+@media (min-width: 600px) {
+  #add {
+    margin-left: 25px;
+  }
+}
+@media (max-width: 600px) {
+  label {
+    font-size: 17px !important;
+  }
+  input {
+    width: 70px !important;
+    height: 25px !important;
+  }
+  .box {
+    width: 20px !important;
+    height: 20px !important;
+  }
+  #add {
+    width: 100px;
+  }
+}
+@media (max-width: 525px) {
+  #task_name {
+    width: 100px !important;
+  }
+  input#deadline {
+    width: 100px !important;
+  }
+  td {
+    font-size: 15px !important;
+  }
+}
+@media (max-width: 599px) {
+  #task_name {
+    width: 80px !important;
+  }
+  input#deadline {
+    width: 80px !important;
+  }
+  label {
+    font-size: 15px !important;
+  }
+  button.main {
+    margin-left: 14px !important;
+    font-size: 12px;
+    width: 50px;
+  }
+}
+@media (max-width: 475px) {
+  #task_name {
+    width: 80px !important;
+  }
+  input#deadline {
+    width: 80px !important;
+  }
+  label {
+    font-size: 13px !important;
+  }
+}
+@media (max-width: 449px) {
+  #task_name {
+    width: 63px !important;
+  }
+  input#deadline {
+    width: 63px !important;
+  }
+  label {
+    font-size: 11px !important;
+  }
+}
+@media (max-width: 395px) {
+  #task_name {
+    width: 60px !important;
+  }
+  input#deadline {
+    width: 60px !important;
+  }
+  label {
+    font-size: 11px !important;
+  }
+}
+@media (max-width: 360px) {
+  #task_name {
+    width: 55px !important;
+    height: 25px !important;
+  }
+  input#deadline {
+    width: 55px !important;
+    height: 25px;
+  }
+  label {
+    font-size: 10px !important;
+  }
+}
+@media (max-width: 321px) {
+  #task_name {
+    width: 48px !important;
+    height: 20px !important;
+  }
+  input#deadline {
+    width: 48px !important;
+    height: 20px !important;
+  }
+  label {
+    font-size: 10px !important;
+  }
+}
+/* @media (max-width: 367px) { */

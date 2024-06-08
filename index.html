@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Oswald:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body style="background-color:  #799351;">
+   
+<div class="all-sections">
+     <div class="title">
+      <!-- <h1>MY LIST</h1>
+    </div> -->
+    <div class="container">
+      <div class="input_field">
+        <div class="one">
+          <label id="task" for="task-name">Task Name:</label>
+          <input type="text" id="task_name" name="task_name" class="main" />
+          <div id="msg"></div>
+        </div>
+
+        <div class="two">
+          <label id="dat" for="deadline">&nbspDate:</label>
+          <input type="date" name="deadline" id="deadline" class="main" />
+          <div id="msg2"></div>
+        </div>
+
+        <button class="main" id="add">Add</button>
+      </div>
+
+      <div class="out-list">
+        <table>
+          <tr>
+        
+           
+          </tr>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+
+      <div id="deleteall"></div>
+    </div></div>
+
+
+    <script src="main.js"></script>
+  </body>
+</html>
